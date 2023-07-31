@@ -16,6 +16,9 @@
         <button ng-click="feedYaakov()">Feed Yaakov</button>
         <br>
 
+        <!-- If you use src here instead of ng-src, it will give 404 error initially -->
+        <!-- since angular hasn't processed this html yet -->
+        <!-- ng-src will only be processed when angular gets hold of html so no 404 error anymore -->
         <img ng-src="images/yaakov_{{stateOfBeing}}.png">
       </div>
     </div>

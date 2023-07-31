@@ -4,6 +4,7 @@
 angular.module('MsgApp', [])
 .controller('MsgController', MsgController);
 
+// Protect from minification
 MsgController.$inject = ['$scope'];
 function MsgController($scope) {
   $scope.name = "Yaakov";

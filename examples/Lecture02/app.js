@@ -3,8 +3,10 @@ var student = {
   type: "student"
 };
 
+// run the function only when the html is loaded
 document.addEventListener('DOMContentLoaded', contentLoaded);
 
+// listen for keyUp event
 function contentLoaded(event) {
   document.getElementById('name').addEventListener("keyup", keyUp);
 }
