@@ -23,6 +23,10 @@ function BindingController($scope) {
   $scope.logFullName = function () {
     console.log("Full name is: ", $scope.fullName);
   };
+
+  // $scope.$watch(function () {
+  //   console.log("Digest Loop fired!")
+  // })
 }
 
 })();
